@@ -1,0 +1,9 @@
+/*
+!.gitignore
+!README.markdown
+!/build-working-dir.xml
+!/git-commit-portal
+!/modules
+/modules/*
+!/modules/.releng/private/
+!/modules/private/
