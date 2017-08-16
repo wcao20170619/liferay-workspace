@@ -4,6 +4,7 @@
 !/build-working-dir.xml
 !/git-commit-portal
 !/modules
+!/working.dir.properties
 /modules/*
 !/modules/.releng/private/
 !/modules/private/
