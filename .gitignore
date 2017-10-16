@@ -6,5 +6,4 @@
 !/modules/
 !/working.dir.properties
 /modules/*
-!/modules/.releng/private/
 !/modules/private/
