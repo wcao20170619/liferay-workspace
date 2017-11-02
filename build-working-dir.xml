@@ -27,18 +27,21 @@
 			<replace
 				failOnNoReplacements="true"
 				file="build.properties"
+				if:set="build.repository.private.password[@{to.branch.name}]"
 				token="build.repository.private.password=${build.repository.private.password[@{from.branch.name}]}"
 				value="build.repository.private.password=${build.repository.private.password[@{to.branch.name}]}"
 			/>
 			<replace
 				failOnNoReplacements="true"
 				file="build.properties"
+				if:set="build.repository.private.url[@{to.branch.name}]"
 				token="build.repository.private.url=${build.repository.private.url[@{from.branch.name}]}"
 				value="build.repository.private.url=${build.repository.private.url[@{to.branch.name}]}"
 			/>
 			<replace
 				failOnNoReplacements="true"
 				file="build.properties"
+				if:set="build.repository.private.username[@{to.branch.name}]"
 				token="build.repository.private.username=${build.repository.private.username[@{from.branch.name}]}"
 				value="build.repository.private.username=${build.repository.private.username[@{to.branch.name}]}"
 			/>
@@ -75,12 +78,14 @@
 			<replace
 				failOnNoReplacements="true"
 				file="test.properties"
+				if:set="test.run.environment[@{to.branch.name}]"
 				token="test.run.environment=${test.run.environment[@{from.branch.name}]}"
 				value="test.run.environment=${test.run.environment[@{to.branch.name}]}"
 			/>
 			<replace
 				failOnNoReplacements="true"
 				file="test.properties"
+				if:set="testray.build.type[@{to.branch.name}]"
 				token="testray.build.type=${testray.build.type[@{from.branch.name}]}"
 				value="testray.build.type=${testray.build.type[@{to.branch.name}]}"
 			/>
@@ -102,6 +107,7 @@
 			<replace
 				failOnNoReplacements="true"
 				file="portal-kernel/src/com/liferay/portal/kernel/util/ReleaseInfo.java"
+				if:set="release.info.name[@{to.branch.name}]"
 				token="${release.info.name[@{from.branch.name}]}"
 				value="${release.info.name[@{to.branch.name}]}"
 			/>
@@ -132,6 +138,7 @@
 			<replace
 				failOnNoReplacements="true"
 				file="sql/sql.properties"
+				if:set="database.types[@{to.branch.name}]"
 				token="database.types=${database.types[@{from.branch.name}]}"
 				value="database.types=${database.types[@{to.branch.name}]}"
 			/>
