@@ -6,7 +6,6 @@
 	<property file="working.dir.${env.HOST}.properties" />
 	<property file="working.dir.${env.HOSTNAME}.properties" />
 	<property file="working.dir.properties" />
-
 	<property name="jenkins.results.parser.version" value="1.0.174" />
 
 	<property name="jenkins.results.parser.file" value="${user.home}/.liferay/com.liferay.jenkins.results.parser-${jenkins.results.parser.version}.jar" />
