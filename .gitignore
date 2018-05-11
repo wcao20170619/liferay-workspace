@@ -7,3 +7,4 @@
 !/working.dir.properties
 /modules/*
 !/modules/private/
+/modules/private/apps/lcs/*
