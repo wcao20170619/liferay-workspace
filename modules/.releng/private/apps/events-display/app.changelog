@@ -1,0 +1,21 @@
+#
+# Liferay App Version 1.0.0
+#
+
+app.artifacts-1.0.0=\
+	com.liferay.events.display.web-1.0.3.jar
+
+app.change.log-1.0.0=LPS-69160
+
+app.git.id-1.0.0=792609635f6f03f6733eadeb92e9f46c6770bbcc
+
+#
+# Liferay App Version 1.0.1
+#
+
+app.artifacts-1.0.1=\
+	com.liferay.events.display.web-1.0.10.jar
+
+app.change.log-1.0.1=LPS-76221
+
+app.git.id-1.0.1=bce0628ca3bf942d570626635021d8bd6c6791a1

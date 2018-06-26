@@ -1,0 +1,13 @@
+#
+# Liferay App Version 3.0.0
+#
+
+app.artifacts-3.0.0=\
+	com.liferay.portal.reports.engine.console.api-2.0.0.jar,\
+	com.liferay.portal.reports.engine.console.service-1.0.1.jar,\
+	com.liferay.portal.reports.engine.console.web-1.0.1.jar,\
+	com.liferay.portal.reports.engine.jasper-1.0.8.jar
+
+app.change.log-3.0.0=LPS-43525 LPS-63383 LPS-64476 LPS-66853 LPS-66891 LPS-67352 LPS-67731 LPS-68044 LPS-68211 LPS-68289 LPS-68344 LPS-68553 LPS-68814 LPS-68923 LPS-68925 LPS-68975 LPS-68994 LPS-69070 LPS-69195 LPS-69377 LPS-69661 LPS-69730 LPS-69853 LPS-70183 LPS-70494 LPS-70616 LPS-70985 LPS-71030 LPS-71085 LPS-71086 LPS-71693 LPS-71925 LPS-72568 LPS-73178
+
+app.git.id-3.0.0=68593e0267f801f554b43aa6dc99625f2cd4c28b

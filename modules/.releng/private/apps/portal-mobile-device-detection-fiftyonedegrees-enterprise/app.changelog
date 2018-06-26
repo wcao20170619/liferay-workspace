@@ -1,0 +1,87 @@
+#
+# Liferay App Version 3.0.3
+#
+
+app.artifacts-3.0.3=\
+	com.liferay.portal.mobile.device.detection.fiftyonedegrees.enterprise-1.0.2.jar
+
+app.change.log-3.0.3=LPS-74017
+
+app.git.id-3.0.3=43ec26811d87e0c7bfe86444429faa73506fd478
+
+#
+# Liferay App Version 3.0.4
+#
+
+app.artifacts-3.0.4=\
+	com.liferay.portal.mobile.device.detection.fiftyonedegrees.enterprise-1.0.3.jar
+
+app.change.log-3.0.4=LPS-74609
+
+app.git.id-3.0.4=171613e9b5453717e0a003b8f70e440ec10835be
+
+#
+# Liferay App Version 3.0.5
+#
+
+app.artifacts-3.0.5=\
+	com.liferay.portal.mobile.device.detection.fiftyonedegrees.enterprise-1.0.4.jar
+
+app.change.log-3.0.5=LPS-75213
+
+app.git.id-3.0.5=b7f95b735f5fe6e82e54db3b3e8283d03233143f
+
+#
+# Liferay App Version 3.0.6
+#
+
+app.artifacts-3.0.6=\
+	com.liferay.portal.mobile.device.detection.fiftyonedegrees.enterprise-1.0.6.jar
+
+app.change.log-3.0.6=LPS-75908
+
+app.git.id-3.0.6=389e423a1bb743cf51cadc0ab26bc63ca64c2c1a
+
+#
+# Liferay App Version 3.0.7
+#
+
+app.artifacts-3.0.7=\
+	com.liferay.portal.mobile.device.detection.fiftyonedegrees.enterprise-1.0.7.jar
+
+app.change.log-3.0.7=LPS-76520
+
+app.git.id-3.0.7=ff5b5328abff794f3b5b84831fd7248ee7437ade
+
+#
+# Liferay App Version 3.0.8
+#
+
+app.artifacts-3.0.8=\
+	com.liferay.portal.mobile.device.detection.fiftyonedegrees.enterprise-1.0.8.jar
+
+app.change.log-3.0.8=LPS-77131
+
+app.git.id-3.0.8=942f2f53c3aa4057f09829c279687b5f935feffb
+
+#
+# Liferay App Version 3.0.9
+#
+
+app.artifacts-3.0.9=\
+	com.liferay.portal.mobile.device.detection.fiftyonedegrees.enterprise-1.0.10.jar
+
+app.change.log-3.0.9=LPS-74544 LPS-77993
+
+app.git.id-3.0.9=ba59245aac323a80dc470bbce3322886ab61837c
+
+#
+# Liferay App Version 3.0.10
+#
+
+app.artifacts-3.0.10=\
+	com.liferay.portal.mobile.device.detection.fiftyonedegrees.enterprise-1.0.11.jar
+
+app.change.log-3.0.10=LPS-78754
+
+app.git.id-3.0.10=3e9a731ea3d35bd1ee3249d6db110115c6b88055

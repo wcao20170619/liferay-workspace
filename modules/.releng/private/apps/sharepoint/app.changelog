@@ -1,0 +1,43 @@
+#
+# Liferay App Version 3.0.0
+#
+
+app.artifacts-3.0.0=\
+	com.liferay.sharepoint.connector-1.0.3.jar
+
+app.change.log-3.0.0=LPS-65361 LPS-65387 LPS-65810
+
+app.git.id-3.0.0=447e466490e65640e0e3d7afad8028b89e68375c
+
+#
+# Liferay App Version 3.0.1
+#
+
+app.artifacts-3.0.1=\
+	
+
+app.change.log-3.0.1=LPS-65361
+
+app.git.id-3.0.1=9ed7b3ba0825a1491256fdf81e359cd967203393
+
+#
+# Liferay App Version 3.0.2
+#
+
+app.artifacts-3.0.2=\
+	
+
+app.change.log-3.0.2=LPS-66620
+
+app.git.id-3.0.2=565ddbdd48a49094f6d95d773210a2c27bbf093a
+
+#
+# Liferay App Version 3.0.3
+#
+
+app.artifacts-3.0.3=\
+	
+
+app.change.log-3.0.3=LPS-65671 LPS-66171 LPS-66628 LPS-66630
+
+app.git.id-3.0.3=30efdfa7bc8f458e99165175ccb64f9a66f88afe
