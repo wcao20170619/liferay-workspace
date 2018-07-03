@@ -9,5 +9,6 @@
 !/modules/.releng/
 /modules/.releng/*
 !/modules/.releng/private/
+/modules/.releng/private/apps/lcs/*
 !/modules/private/
 /modules/private/apps/lcs/*
