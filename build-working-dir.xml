@@ -158,9 +158,9 @@
 			<replace
 				failOnNoReplacements="true"
 				file="build.properties"
-				if:set="nightly.bundle.base.url[@{to.branch.name}]"
-				token="nightly.bundle.base.url=${nightly.bundle.base.url[@{from.branch.name}]}"
-				value="nightly.bundle.base.url=${nightly.bundle.base.url[@{to.branch.name}]}"
+				if:set="snapshot.bundle.base.url[@{to.branch.name}]"
+				token="snapshot.bundle.base.url=${snapshot.bundle.base.url[@{from.branch.name}]}"
+				value="snapshot.bundle.base.url=${snapshot.bundle.base.url[@{to.branch.name}]}"
 			/>
 
 			<!-- release.properties -->
