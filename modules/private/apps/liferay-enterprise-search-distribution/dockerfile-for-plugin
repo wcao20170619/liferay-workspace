@@ -1,0 +1,9 @@
+# Install analysis-kuromoji plugin into Official elasticsearch docker image.
+# run 'docker build . -t elasticsearch -f ./dockerfile-for-plugin' 
+# then run 'docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "cluster.name=LiferayES613" -e "node.name=julioNode" --name elasticsearch elasticsearch:latest'
+
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.1.3
+LABEL maintainer "wade.cao <wade.cao@liferay.com>"
+
+ENV PLUGIN_LIST='analysis-kuromoji analysis-icu analysis-smartcn analysis-stempel'
+RUN for plugin in $PLUGIN_LIST; do elasticsearch-plugin install --batch "$plugin"; done
